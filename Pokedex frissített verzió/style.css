@@ -1,0 +1,33 @@
+.Normal {
+    background-color: gray;
+    color: white;
+}
+
+#a{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+#stats{
+    padding-top: 2cm;
+    padding-left: 1cm;
+}
+
+.stat{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;
+    }
+  }
+
+  #egész{
+      border: 1px solid red;
+      background-color: lemonchiffon;
+  }
+
+  html{
+      padding-top: 5px;
+  }
